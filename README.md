@@ -4,6 +4,7 @@ measuring the time taken by a program to execute is a crucial aspect of software
 meauring by execution time in cpp:
 1. Using the clock function: The clock function in C++ provides the time elapsed since the program started running. It returns the number of clock ticks since the program started running. We can use this function to measure the time taken by a program to execute. Here's an example:
 written code in lect1:
+
 #important syntax:#include <chrono>,auto start = high_resolution_clock::now();,auto end = high_resolution_clock::now();,auto duration = duration_cast<microseconds>(end - start);,cout << "Time taken by program: " << duration.count() << " microseconds";
 
 Explanation:
