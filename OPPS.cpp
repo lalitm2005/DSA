@@ -5,6 +5,9 @@ class student{//class name
         int roll_no;//attribute
         string name;//attribute
         string email;//attribute
+        // used new access specifier(if access spec. is not specified then default is private)
+        private:
+        string lalit;
 // there are two methods of writing methods(in other words function of class)1)inside class 2)outside class
 
 // this is for inside
