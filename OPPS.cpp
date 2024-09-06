@@ -15,6 +15,14 @@ class student{//class name
             cout<<email<<endl;
         }
         void print_roll_no();
+        // created constructors(automatically called when an object is created) and destructors(automatically called when an object of a cleass is destroyed)
+        // can also pass parameters do not know what to do about it
+        student(){
+            cout<<"student joined"<<endl;
+        }
+        ~student(){
+            cout<<"student removed"<<endl;
+        }
     };
     // this is for outside(but for somereason i have to initialize it inside the class)
     void student::print_roll_no(){
@@ -29,6 +37,7 @@ int main()
     a.print_email();
     a.print_name();
     a.print_roll_no();
+    
     return 0;
 
 
