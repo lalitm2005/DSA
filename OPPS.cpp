@@ -1,10 +1,10 @@
 #include<iostream>  
 using namespace std;
-class student{
-        public:
-        int roll_no;
-        string name;
-        string email;
+class student{//class name
+        public://access specifier
+        int roll_no;//attribute
+        string name;//attribute
+        string email;//attribute
     };
 int main()  
 {  
