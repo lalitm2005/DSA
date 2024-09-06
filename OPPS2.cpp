@@ -15,6 +15,7 @@ class student{
         return roll_no;
     }
 };
+// for abstraction it is given example of a code in which make_email is used to add iitj.ac.in in end of line and returning email in main function it is returned very clearly 
 int main(){
     student a;
     a.set_roll(11);
