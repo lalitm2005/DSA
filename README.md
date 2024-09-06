@@ -14,3 +14,4 @@ We first include the <chrono> header file which provides us with the high_resolu
 
 # ***Number of primitive operations:***
 pg 16 of lect1 notes
+did c++ introduction whole(need to review function of vector used );
