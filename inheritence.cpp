@@ -26,6 +26,8 @@ class MyClass{
 // derived class(child)
 class MyChild: public MyClass{
     // if i put private other than public then it will treat its element as private & will not be able to access then in int main just like private evne if it is public in parent
+    // can also access protected data in this child and changed using get and set
+
 };
 class MyGrandChild:public MyChild{
 };
